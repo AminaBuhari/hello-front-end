@@ -4,7 +4,6 @@ import '../App.css';
 
 const Greeting = () => {
   const message = useSelector((state) => state.greeting.greeting);
-  console.log(message);
   const dispatch = useDispatch();
 
   function handleClick() {

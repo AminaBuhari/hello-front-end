@@ -28,7 +28,7 @@ const greetingReducer = (state = initialState, action) => {
     case GET_GREETING_SUCCESS:
       return {
         ...state,
-        greeting: action.payload.greeting,
+        greeting: action.payload.message,
       };
     default:
       return state;
